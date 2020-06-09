@@ -60,9 +60,3 @@
       })
    })
  })
- 
- 
- 
-//  const telefone = obterTelefone(usuario.id)
- 
-//  console.log('telefone', telefone)

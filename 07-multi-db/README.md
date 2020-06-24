@@ -63,6 +63,8 @@ docker run \
 
 * comando para criar um banco de dados
 
+```
 docker exec -it mongodb \
     mongo --host localhost -u admin -p senhaadmin --authenticationDatabase admin \
     --eval "db.getSiblingDB('herois').createUser({ user: 'williamkoller', pwd: 'minhasenhasecreta', roles: [{ role: 'readWrite', db: 'herois'}]})"
+```
